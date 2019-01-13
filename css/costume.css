@@ -1,0 +1,47 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: 1px;
+}
+
+.nav {
+    position: absolute;
+    right: 200px;
+
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+/* membuat minimal tinggi section */
+section {
+    min-height: 500px;
+}
+
+.portfolio {
+    background-color: #eee;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+    background: #333;
+    color: #e3e3e3;
+
+    width: 100%;
+
+}
+
+footer p {
+    font-size: 18px;
+}
